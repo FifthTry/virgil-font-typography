@@ -1,0 +1,7 @@
+-- import: fastn
+
+-- fastn.package: fifthtry.github.io/virgil-font-typography
+download-base-url: https://raw.githubusercontent.com/fifthtry/virgil-font-typography/main
+
+
+-- fastn.dependency: fifthtry.github.io/virgil-font
