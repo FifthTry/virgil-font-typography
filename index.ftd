@@ -575,26 +575,30 @@ caption title:
 optional integer line-height:
 optional integer weight:
 optional integer size:
-ftd.responsive-type headingtitle: 
-;;string font-family: $font-family
+ftd.responsive-type headingtitle:
 
 -- ftd.column:
 
+-- ftd.desktop:
+
 -- heading-box-desktop: $heading-box.title
-if: { ftd.device != "mobile" }
 line-height: $heading-box.line-height
 weight: $heading-box.weight
 size: $heading-box.size
 headingtitle: $heading-box.headingtitle
-;;font-family: $heading-box.font-family
+
+-- end: ftd.desktop
+
+
+-- ftd.mobile:
 
 -- heading-box-mobile: $heading-box.title
-if: { ftd.device == "mobile" }
 line-height: $heading-box.line-height
 weight: $heading-box.weight
 size: $heading-box.size
 headingtitle: $heading-box.headingtitle
-;;font-family: $heading-box.font-family
+
+-- end: ftd.mobile
 
 -- end: ftd.column
 
